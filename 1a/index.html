@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMAMIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <img class="nitt" src="/img/NITTE_Deemed_Univerity_logo.png" alt="Nitte">
+            <img class="nitte" src="/img/2.jpg" alt="Nitte">
+            <h2 class="NMAMIT">NMAMIT NITTE</h2>
+        </div>
+        <p>Affiliation:Deemed University</p>
+        <p>Nitte,Karkala,Karnataka</p>
+    </header>
+    <nav class="na">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a class="dep" href="#">Departments
+                <div class="hid">
+                    <ul>
+                        <li><a href="cs.html">CS</a></li>
+                        <li><a href="is.html">IS</a></li>
+                    </ul>
+                </div>
+            </a></li>
+
+            <li><a href="#">Resources</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <div id="social">
+            <a href="twitter.com">X</a>
+            <a href="youtube.com">Youtube</a>
+            <a href="Instagram.com">Instagram</a>
+            <a href="LinkedIn.com">LinkedIn</a>
+        </div>
+        <p>No Copyrights</p>
+    </footer>
+    <script>
+        const depart = document.querySelector(".dep");
+        const hidding = document.querySelector(".hid");
+        depart.addEventListener("click",function(){
+            hidding.style.diplay = block;
+        })
+  </script>
+    </body>
+</html>
